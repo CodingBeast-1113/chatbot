@@ -82,7 +82,7 @@ function App() {
   return (
     <>
       <div className="app">
-        <div style={{position:"relative",height:"635px",width:"auto"}}>
+        <div className='Chatgpt-container'>
           <MainContainer>
             <ChatContainer>
               <MessageList typingIndicator={typing ? <TypingIndicator content='ChatGpt is Typing'/> : null}>

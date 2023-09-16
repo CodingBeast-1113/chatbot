@@ -1,76 +1,12 @@
-.App {
-  text-align: center;
+.Chatgpt-container{
+  position: relative;
+  height: 635px;
+  width: auto;
 }
 
-.Searchbar{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.welcome{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.movie_div{
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  flex-wrap: wrap;
-}
-
-.movie_div div{
-  padding: 20px;
-  border: 1px solid;
-  width: 200px;
-  height: auto;
-  margin: 10px;
-}
-
-.movie_div div img{
-  height: 200px;
-  width: 150px;
-}
-
-.Searchbar input{
-  outline: none;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width:600px){
+ .Chatgpt-container{
+  height:750px !important;
+  width: auto;
+ } 
 }
