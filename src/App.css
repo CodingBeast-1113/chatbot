@@ -2,6 +2,44 @@
   text-align: center;
 }
 
+.Searchbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie_div{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.movie_div div{
+  padding: 20px;
+  border: 1px solid;
+  width: 200px;
+  height: auto;
+  margin: 10px;
+}
+
+.movie_div div img{
+  height: 200px;
+  width: 150px;
+}
+
+.Searchbar input{
+  outline: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
